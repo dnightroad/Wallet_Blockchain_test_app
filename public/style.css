@@ -1,0 +1,52 @@
+body {
+      background-color: #FAF0D7;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+    }
+
+    header {
+      background-color: #8CC0DE;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      margin-top: 5%;
+      background-color: #FFD9C0;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  h1{
+    color:white;
+  }
+   h2, p {
+      color: #333;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #CCEEBC;
+      border-color: transparent;
+    }
+.card:hover{
+  
+  box-shadow: 10px 10px 5px lightblue;
+
+}
+    .card-title, .card-text {
+      color: #333;
+    }
+
+    img {
+      width: 750px;
+    }

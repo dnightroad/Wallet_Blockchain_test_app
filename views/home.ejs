@@ -1,0 +1,42 @@
+<%- include('partials/header') %>
+
+<div class="container">
+
+
+  <div>
+   <h2>List of endpoints</h2>
+   <br />
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="/wallets/all">/wallets/all</a> GET</h5>
+        <p class="card-text">Retrieve all wallets</p>
+      </div>
+    </div>
+    <div class="card mt-3">
+      <div class="card-body">
+        <h5 class="card-title"><a href="/wallet/:address">/wallet/:address</a> GET</h5>
+        <p class="card-text">Retrieve a specific wallet by address</p>
+      </div>
+    </div>
+    <div class="card mt-3">
+      <div class="card-body">
+        <h5 class="card-title"><a href="/wallet/make-transaction">/wallet/make-transaction</a> POST</h5>
+        <p class="card-text">Make a transaction</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5">
+    <p>
+      It also uses a MySQL database to store the wallets and transactions in it
+    </p>
+    <img src="images/wallet.png" alt="">
+    <img src="images/transactions.png" alt="">
+
+
+  </div>
+    <a class="btn btn-light" href="wallet.sql" role="button">Download the DB</a>
+</div>
+
+
+<%- include('partials/footer') %>
