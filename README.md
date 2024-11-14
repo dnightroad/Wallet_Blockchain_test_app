@@ -1,5 +1,5 @@
-# LimeAcademy_Blockchain
-This is my Diana Edreva's attempt at Lime Academy's Blockchain entrance
+# Web3 test
+Blockchain wallet web app 
 
 ## Here is an image of the project
 
